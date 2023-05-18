@@ -1,6 +1,5 @@
 {
   "name": "whistle.ppanel",
-  "private": true,
   "version": "1.0.0",
   "description":"一款高颜值的性能面板",
   "type": "module",
