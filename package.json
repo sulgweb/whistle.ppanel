@@ -1,0 +1,31 @@
+{
+  "name": "whistle.ppanel",
+  "private": true,
+  "version": "1.0.0",
+  "description":"一款高颜值的性能面板",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts",
+    "_rules.txt"
+  ],
+  "main": "./dist/counter.umd.cjs",
+  "module": "./dist/counter.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/counter.js",
+    "require": "./dist/counter.umd.cjs"
+  },
+  "scripts": {
+    "dev": "tsc && vite build --watch",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "ppanel": "^0.0.0-beta-0.6"
+  }
+}
